@@ -1,0 +1,36 @@
+version 2.2.0+20210129
+      Add local copy of tinymce 4.9.11
+      Use the local copy of tinymce instead of the cloud version
+
+version 2.1.0+20161018
+      Load tinymce from its CDN
+      Add item to tinymce menu to show its version
+      coding standards changes
+      Move most of the documentation to the phplist plugins page
+
+version 2.0.2+20160615
+Arnaud Virlet (1):
+     GitHub #3, update url for ajax.googleapis.com (avoid blocked mixed active content error in browser)
+
+version 2.0.1+20150914
+      Allow full page editing
+      Don't escape & in javascript
+
+version 2015-07-15
+      GitHub #1, use https instead of http for jquery files
+
+version 2015-05-10
+      Add dependency checks
+
+version 2014-07-13
+      Ensure host name is included in links
+      Display warning if image directory is not writeable
+      Correct unescaped &
+
+version 2014-03-24
+      Internal changes
+      Ensure host name is included in links
+      Allow UPLOADIMAGES_DIR to have leading and trailing /
+
+version 2013-11-05
+      Initial release
